@@ -1,5 +1,5 @@
 function filterEvenLengthWords(words) {
-    // your code here
+    return words.filter(item => item.length % 2 === 0);
     
 }
 
